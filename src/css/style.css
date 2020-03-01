@@ -38,7 +38,7 @@ footer ul {
   padding: 0px;
 }
 .footer-section {
-  background: white;
+  background: #202020;
   position: relative;
 }
 .footer-content {
@@ -48,7 +48,7 @@ footer ul {
 .footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
-  color: #7e7e7e;
+  color: white;
   line-height: 28px;
 }
 .footer-widget-heading h3 {
@@ -71,13 +71,21 @@ footer ul {
   display: inline-block;
   width: 50%;
   margin-bottom: 12px;
+  list-style: none;
 }
 .footer-widget ul li a:hover {
   color: #ff5e14;
+  left: 7px;
 }
 .footer-widget ul li a {
-  color: #878787;
+  color: white;
   text-transform: capitalize;
+  text-decoration: none;
+  position: relative;
+  transition: all 350ms;
+}
+.footer-widget-heading h3 {
+  color: white;
 }
 .copyright-area {
   background: #202020;
@@ -90,4 +98,20 @@ footer ul {
 }
 .copyright-text p a {
   color: #ff5e14;
+}
+.container-fluid {
+  padding: 20px 20px;
+  background: #e6e6e6;
+  width: 100%;
+  height: auto;
+}
+
+.adjust {
+  background: white;
+  padding: 20px;
+  height: 42%;
+  border-radius: 20px;
+}
+.round {
+  border-radius: 20px;
 }
