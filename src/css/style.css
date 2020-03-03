@@ -12,9 +12,7 @@ body {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06);
 }
-#navbarDropdownMenuLink::after {
-  content: none;
-}
+
 @media (min-width: 768px) {
   .navbar li {
     margin-left: 0.5em;
@@ -122,20 +120,9 @@ footer ul {
 }
 
 .events-tab {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px;
 }
 
 .tab-content div {
   margin-top: 15px;
-}
-
-@media (max-width: 576px) {
-  .nav-tabs .nav-item {
-    width: 100%;
-  }
-  .nav-tabs .nav-item.show .nav-link,
-  .nav-tabs .nav-link.active {
-    background: #e6e6e6;
-  }
 }
