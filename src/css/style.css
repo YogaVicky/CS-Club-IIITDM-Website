@@ -54,7 +54,7 @@ body {
   width: 95%;
   grid-area: box1;
   margin: 0 auto;
-  background: rgba(190, 180, 135, 0.8);
+  background: rgba(72, 158, 216, 0.8);
   border-radius: 1rem;
   overflow: auto;
   overflow-x: hidden;
@@ -95,7 +95,7 @@ body {
   width: 85%;
   min-height: 7em;
   display: block;
-  background: #fff;
+  background: #ffe83c;
   justify-content: center;
   align-items: center;
   align-self: center;
@@ -147,15 +147,16 @@ body {
 }
 .panel {
   padding: 0 18px;
-  width: 100%;
+  width: 95%;
   display: flex;
   position: relative;
   display: none;
   left: 0;
-  margin: 20px 0;
+  margin: 20px ;
   overflow: auto;
   background-color: white;
   overflow: hidden;
+  border-radius: 10px;
 }
 .panel p {
   overflow: auto;
@@ -168,7 +169,7 @@ body {
   grid-area: box2;
   margin: 0 auto;
   border-radius: 1rem;
-  background: rgba(190, 180, 135, 0.69);
+  background: rgba(72, 158, 216, 0.8);
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.6);
   background-filter: blur(10px);
 }
@@ -183,7 +184,7 @@ body {
   padding: 10px 0px;
   margin: 20px;
   border-radius: 8px;
-  background: #fff;
+  background: #ffe83c;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.6);
 }
 .associates-image-container .associates-image-holder img {
@@ -195,7 +196,7 @@ body {
   grid-area: box3;
   margin: 0 auto;
   border-radius: 1rem;
-  background: rgba(190, 180, 135, 0.69);
+  background: rgba(72, 158, 216, 0.8);
   box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 .achievements-container .pseudo-achievements-container .achievements-heading {
@@ -225,7 +226,7 @@ body {
   padding: 10px 0px;
   margin: 20px;
   border-radius: 8px;
-  background: #fff;
+  background: #ffe83c;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.6);
 }
 .achievements-container .pseudo-achievements-container .achievements-box img {
@@ -249,18 +250,19 @@ body {
   padding: 30px;
 }
 .accordion {
-  background: rgba(255, 230, 240, 0.5);
+  background: rgba(72, 158, 216, 0.8);
   padding: 1% 5%;
   border-radius: 9px;
 }
 .accordion h3 {
-  background: rgba(0, 0, 0, 0.6);
+  background: #ffe83c;
   padding: 15px 10px;
   font-size: 20px;
   border-radius: 5px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   letter-spacing: 2px;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.6);
 }
 .accordion h3:after {
   content: "+";
@@ -271,7 +273,6 @@ body {
   transform: translate(-50%);
 }
 .accContent {
-  background: #fff;
   border-radius: 5px;
   margin-top: 0px;
   display: none;
