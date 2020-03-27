@@ -278,6 +278,7 @@ body {
 }
 .active {
   display: block;
+  color: rgba(0,0,0,.9)
 }
 .contnet-inner {
   padding: 15px;
