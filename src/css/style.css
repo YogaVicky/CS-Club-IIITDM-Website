@@ -513,6 +513,40 @@ footer ul {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+/* 
+***************************************************************************
+            Contact Us styles
+*************************************************************************** */
 
+#map-marker {
+  color: yellow;
+  font-size: 100px;
+}
 
+.heading {
+  font-size: 60px;
+}
+#envelope{
+  color: yellow;
+  font-size: 300px;
+}
 
+.social-media ul li{
+  display: inline;
+  list-style-type: none;
+}
+.social-media ul li a{
+ color: white;
+ transition: all 0.35s;
+}
+.social-media ul li a:hover{
+ color: #ff5e14
+}
+
+.social-media .icon{
+  font-size: 60px;
+}
+.map{
+  height: 75%;
+  background: #f1f1f1
+}
